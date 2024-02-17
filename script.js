@@ -1,7 +1,7 @@
 function isSameType(value1, value2) {
 	let ans;
 	//console.log(typeof value1 + typeof value2);
-  if(value1===value2)  //|| (value1==NaN && value2==NaN))
+  if((value1===value2) || (typeof value1==typeof value2))
 	 {
 	     ans="true";
 	 }
